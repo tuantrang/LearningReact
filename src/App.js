@@ -8,15 +8,15 @@ import Counter from "./Components/Counter";
 function App() {
   return (
     <div className="App">
-      {/*<Greet name='Trang' heroName='Thor'>
-        <h1>This is the children</h1>
-      </Greet>
-      <Greet name='Thanh' heroName='Superman'><button>Action</button></Greet>
-      <Greet name='Tuan' heroName='Aquaman' />
-      <Welcome heroName="Flash" />*/}
+      {/*<Greet name='Trang' heroName='Thor'>*/}
+        {/*<h1>This is the children</h1>*/}
+      {/*</Greet>*/}
+      {/*<Greet name='Thanh' heroName='Superman'><button>Action</button></Greet>
+      <Greet name='Tuan' heroName='Aquaman' />*/}
+      <Welcome heroName="Flash" />
       {/*<Hello />*/}
       {/* <Message/> */}
-      <Counter/>
+      {/*<Counter/>*/}
     </div>
   );
 }
