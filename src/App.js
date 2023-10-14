@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import FunctionClick from './Components/FunctionClick';
 import EventBind from './Components/EventBind'
-import UserGreeting from './Components/UserGreeting'
+import NameList from './Components/NameList'
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
     </div>
   );
 }
