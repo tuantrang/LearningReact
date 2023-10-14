@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Form from './Components/Form'
+import LifecyleA from './Components/LifecyleA'
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifecyleA />
     </div>
   );
 }
