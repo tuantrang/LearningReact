@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import FunctionClick from './Components/FunctionClick';
-import ClassClick from './Components/ClassClick'
+import EventBind from './Components/EventBind'
+import Message from './Components/Message'
 function App() {
   return (
     <div className="App">
-      <ClassClick />
+      <EventBind />
+      <Message/>
     </div>
   );
 }
