@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LifecyleA from './Components/LifecyleA'
+import Table from './Components/Table'
 
 function App() {
   return (
     <div className="App">
-      <LifecyleA />
+      <Table />
     </div>
   );
 }
