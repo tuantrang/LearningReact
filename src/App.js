@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import PortalDemo from './Components/PortalDemo'
+import Hero from './Components/Hero'
+import ErrorBoundary from './Components/ErrorBoundary'
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      <ErrorBoundary>
+        <Hero heroName="Clark" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary>
     </div>
   );
 }
