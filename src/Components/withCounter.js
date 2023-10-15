@@ -23,3 +23,13 @@ const withCounter = WrappedComponent => {
 }
 
 export default withCounter
+
+/*
+Higher Order Component - HOC
+A pattern where a function takes a component as an argumetn and returns a new component
+
+const NewComponent = higherOrderComponent(originalComponent)
+const EnhancedComponent = higherOrderComponent(originalComponent)
+
+const IronMan = withSuit(TonyStark)
+*/
