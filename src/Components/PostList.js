@@ -16,7 +16,7 @@ class PostList extends Component {
             .then(response => {
                 this.setState({ posts: response.data})
             })
-            .catch(error=> this.setState({errorMsg: 'Error retreiving data'}))
+            .catch(error=> this.setState({errorMsg: 'Error retrieving data'}))
     }
     render() {
         const {posts, errorMsg} = this.state

@@ -1,3 +1,4 @@
+/*
 What are Hooks?
 	Hooks are a new feature addition in React version 16.8 which allow you to use React features without having to write a class.
 	Ex. State of a component.  Hooks don't work inside class
@@ -23,3 +24,4 @@ Summary
 	* Avoid the whole confusion with 'this' keyword
 	* Allow you to reuse stateful logic
 	* Organize the logic inside a component into reusable isolated units
+*/
