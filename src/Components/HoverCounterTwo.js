@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import withCounter from './withCounter'
+
 
 class HoverCounterTwo extends Component {
     render() {
