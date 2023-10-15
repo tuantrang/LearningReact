@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FRParentInput from './Components/FRParentInput'
+import PortalDemo from './Components/PortalDemo'
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
+      <PortalDemo />
     </div>
   );
 }
