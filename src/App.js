@@ -1,19 +1,14 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import ComponentC from './Components/ComponentC';
+import Counter1 from './Components/Counter1';
 
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={'Tuan'}>
-        <ChannelContext.Provider value={'TTTDesign'}>
-          <ComponentC />
-        </ChannelContext.Provider>
-      </UserContext.Provider>
+        <Counter1 />
     </div>
   );
 }
