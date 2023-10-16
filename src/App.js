@@ -1,14 +1,14 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import Counter2 from './Components/Counter2';
+import CounterThree from './Components/CounterThree';
 
 
 
 function App() {
   return (
     <div className="App">
-        <Counter2 />
+        <CounterThree />
     </div>
   );
 }
